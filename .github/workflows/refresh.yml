@@ -1,0 +1,15 @@
+name: Repository Refresh
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Repository Refresh
+        run: echo "Repository refreshed at $(date)"
