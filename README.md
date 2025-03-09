@@ -4,7 +4,7 @@
 
 A Python script that enhances nmap's version scanning (`-sV`) by highlighting deprecated or outdated software versions in red. This tool helps security professionals and system administrators quickly identify potentially vulnerable services during network scans.
 
-![Screenshot](screenshot.png)
+> **Note:** A screenshot will be added soon showing the colorized output. For now, a placeholder file has been included.
 
 ## Features
 
