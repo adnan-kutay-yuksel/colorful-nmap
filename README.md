@@ -111,3 +111,6 @@ Please note that the deprecated versions database included in this tool is not a
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**FEEL FREE TO CONTRIBUTE!**
+
