@@ -1,0 +1,7 @@
+This is a placeholder for the screenshot.
+
+In a real implementation, you would:
+1. Run the colorful_nmap.py script against a target with known deprecated versions
+2. Take a screenshot of the terminal showing the colorized output
+3. Save it as screenshot.png in this directory
+4. Replace this text file with that image
