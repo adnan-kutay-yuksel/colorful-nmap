@@ -6,9 +6,16 @@ A Python script that enhances nmap's version scanning (`-sV`) by highlighting de
 
 ## Overview
 
-This tool wraps around the standard nmap command, parsing its output and applying color highlighting to make it easier to spot potentially vulnerable services at a glance.
+This tool wraps around the standard nmap command, parsing its output and applying color highlighting to make it easier to spot potentially vulnerable services at a glance. When a service is running a version that is considered deprecated or outdated according to the built-in database, the entire service information is highlighted in red, making it immediately visible during security assessments.
 
-![Screenshot](screenshot.png)
+## Why Use This Tool?
+
+- **Instant Visual Feedback**: Quickly identify outdated software versions without manual checking
+- **Comprehensive Database**: Includes version information for many common services and applications
+- **Customizable**: Easily update the version database to match your organization's security policies
+- **Familiar Interface**: Uses the same command-line arguments as standard nmap
+
+> **Note:** A screenshot will be added soon showing the colorized output.
 
 ## Features
 
